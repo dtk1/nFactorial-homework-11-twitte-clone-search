@@ -1,4 +1,5 @@
 # React + Vite
+Капец, целый день потратил на верстку одной страницы, зато теперь понял приколы верстки и пропсы уже лучше понимаю
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
