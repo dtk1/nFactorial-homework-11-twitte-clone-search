@@ -22,9 +22,9 @@ export default function RightSide() {
       </div>
         <p style={{padding: '14px 14px 14px 14px', color: 'white', borderBottom: '1px solid #2F3336', fontSize: 17, backgroundColor:'#15181C', borderRadius: '25px 25px 0 0', marginBottom: 0}}>Trends for you</p> 
       {trends.map((items) =>(<TrendsForYou {...items} key = {items.id}/>))}
-      <p style={{padding: '14px 14px 14px 14px', color: 'white',borderRadius: '0 0 25px 25px', fontSize: 16, backgroundColor:'#15181C', color: '#1DA1F2'}}>Show More</p> 
+      <p style={{padding: '14px 14px 14px 14px',borderRadius: '0 0 25px 25px', fontSize: 16, backgroundColor:'#15181C', color: '#1DA1F2'}}>Show More</p> 
       <WhoToFollow/>
-      <p style={{padding: '7px 14px 14px 22px', color: 'white',borderRadius: '0 0 25px 25px', fontSize: 16, backgroundColor:'#15181C', color: '#1DA1F2'}}>Show More</p> 
+      <p style={{padding: '7px 14px 14px 22px',borderRadius: '0 0 25px 25px', fontSize: 16, backgroundColor:'#15181C', color: '#1DA1F2'}}>Show More</p> 
       </div>
   )
 }
