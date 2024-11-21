@@ -6,7 +6,7 @@ import  UTKU_SVG  from './images/image 1 1.png'
 export default function LeftSide() {
   return (
     <div className='mx-4 d-flex flex-column'>
-      <div className='mt-1 mb-3'>{TWITTER_SVG}</div> 
+      <div className='mt-2 mb-3'>{TWITTER_SVG}</div> 
   {icons.map((item)=><MenuItem item={item} key={item.id}/>)}
   <button style={{width: '75%',border:'none', backgroundColor:'#1DA1F2', borderRadius: 47, color:'white', padding:'15px 0px', fontSize: 15, fontWeight: 'bold'}}>Tweet</button>
 

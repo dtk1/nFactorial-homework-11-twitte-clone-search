@@ -6,7 +6,7 @@ export default function WhoToFollow() {
     <div className="mt-4" style={{borderRadius: '25px 25px 0 0', backgroundColor:'#15181C'}}>
       <p style={{fontSize: 16, color:'white', padding: '20px 29px 26px 23px'}}>Who to Follow</p>
       <div className='w-100 d-flex flex-row align-items-center justify-content-around'> 
-      <div>
+      <div style={{marginLeft: 10}}>
      {ABSTRACT_SVG}
       </div>
       <div>
@@ -20,7 +20,7 @@ export default function WhoToFollow() {
       </div>
       </div>
       <div className='w-100 d-flex flex-row align-items-center justify-content-around mt-3 pb-4'> 
-      <div>
+      <div style={{marginLeft: 10}}>
      {GENERICPERSON_SVG}
       </div>
       <div>

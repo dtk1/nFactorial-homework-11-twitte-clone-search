@@ -4,6 +4,12 @@ import KZ_PNG from '../images/kz.png'
 import SAMATMENTOR from '../images/SamatMentor.png'
 import ME from '../images/Me.png'
 import DALIDA from '../images/Dalida.png'
+import FRAME from '../images/Frame 6.png'
+import NETFLIX_PNG from '../images/netflix.png'
+import SPACEX from '../images/SPACEX.jpg'
+import FOOD from '../images/FOOD.jpg'
+import spacexlogo from '../images/spacexlogo.jpg'
+import bearlogo from '../images/bearlogo.jpg'
 export const tweets = [
     {
         id: 1,
@@ -65,4 +71,59 @@ export const tweets = [
         hashtag: '#travel #adventure',
         time: '3h'
     },
+    {
+        id: 6,
+        authorName: 'Netflix',
+        authorUserName: '@netflix',
+        img: NETFLIX_PNG,
+        content: 'Need a break? Escape into the world of endless stories with Netflix. From gripping dramas to laugh-out-loud comedies, and thrillers that’ll keep you on the edge of your seat, there’s always something for everyone. Start watching your next obsession today!',
+        retweets: 350,
+        replies: 23,
+        likes: 1835,
+        hashtag: '#Netflix #Chill',
+        time: '3h',
+        frame: FRAME
+    },
+    {
+        id: 7,
+        authorName: "SpaceX",
+        authorUserName: "@spacex",
+        img: spacexlogo, // Replace with the actual image URL or import
+        content:
+          "The Starship is ready for its next launch! Join us as we take another leap towards interplanetary exploration. 🚀",
+        retweets: 780,
+        replies: 320,
+        likes: 5400,
+        hashtag: "#SpaceX #Starship",
+        time: "5h",
+        frame: SPACEX, 
+      },
+      {
+        id: 8,
+        authorName: "World Wildlife",
+        authorUserName: "@wwf",
+        img: bearlogo, 
+        content:
+          "Protecting our planet starts with each of us. Join the movement to save endangered species and restore ecosystems. 🌍🐾",
+        retweets: 200,
+        replies: 100,
+        likes: 3200,
+        hashtag: "#Conservation #WWF",
+        time: "8h",
+        frame: bearlogo
+      },
+      {
+        id: 9,
+        authorName: "Foodies United",
+        authorUserName: "@foodiesunited",
+        img: FOOD, 
+        content:
+          "Craving something delicious? Check out these top 10 recipes for winter comfort foods. 🍲❄️",
+        retweets: 130,
+        replies: 50,
+        likes: 1700,
+        hashtag: "#FoodLovers #Recipes",
+        time: "12h",
+        frame: FOOD, 
+      },
 ];
